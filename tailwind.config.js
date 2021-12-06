@@ -35,6 +35,9 @@ module.exports = {
       }
 
       },
+      screens: {
+        'xs': {'min': '320px', 'max': '640px'},
+      },
       fontFamily: {
         body: ['Orbitron', 'sans-serif'],
         poppins: ['Poppins']
