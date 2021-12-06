@@ -6,14 +6,13 @@ function Header() {
     return (
     
        
-        <header className=" mx-auto max-w-7xl xs:ml-10 xs:justify-end xs:mt-10 xs:mb-10 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between">
+        <header className=" mx-auto max-w-7xl xs:ml-10 xs:justify-end xs:mt-10 xs:mb-10 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between mt-14">
             <div className="relative h-18 w-28 xs:invisible animate-bounce xs:max-w-7xl">
                 <Link href="/"  className="">
                 <Image src={Eye}
                         layout="fill"
                         className="cursor-pointer"
                     objectFit="contain"
-                   
                 /></Link>
             </div>
              <div className="flex space-x-5  xs:invisible ">
