@@ -8,15 +8,12 @@ function Info() {
     return (
        <>
         <main className="max-w-7xl mx-auto mt-20">
-                <section className=" font-poppins flex flex-col">
                     <div className="flex flex-row space-x-4">
                         <h3 className="text-1xl font-semibold">I'm Nitin Sagar</h3>
                         <div className="border h-0 w-10 transform translate-y-3"></div>
                         <h3 className="text-1xl font-semibold">Available For Freelance Work</h3>
                     </div>
-                     
-               
-                <div className="mt-20 w-full font-poppins font-semibold md:text-6xl sm:text-3xl lg:text-9xl xs:2xl justify-center">
+                <div className="mt-20 font-poppins font-semibold justify-center text-9xl">
                     <h1> I'm a Freelance <span className=" text-yellow-500">UX/UI</span>  Designer Turning Your Ideas Into Reality</h1>
                     
                 </div>
@@ -28,7 +25,7 @@ function Info() {
                         <h6>NitinSagar309@gmail.com</h6>
                     </div>  
                 </div>
-                </section>
+             
             
             </main>
             
