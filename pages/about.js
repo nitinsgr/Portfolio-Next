@@ -7,7 +7,7 @@ import NextIcon from '../images/next.svg'
 import NodeIcon from '../images/nodejs.svg'
 import SassIcon from '../images/sass-1.svg'
 import MongoIcon from '../images/mongodb-icon-1.svg'
-import AnimatedCursor from "react-animated-cursor"
+
 
 function about() {
   
