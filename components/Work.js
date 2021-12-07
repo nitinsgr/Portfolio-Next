@@ -4,6 +4,7 @@ import DisplayImage from '../images/Desktop.jpg'
 import Sosspay from '../images/SOSSPAY.jpg'
 import SpotifyImage from '../images/Spotify.jpg'
 import { FaBeer, FaExternalLinkAlt, FaFacebook, FaFacebookF, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
+import Link from 'next/link'
 
 function Work() {
     return (
@@ -31,7 +32,7 @@ function Work() {
                         </div>
                         <div className="flex space-x-5 justify-end">
                             <FaGithub className="h-12 w-5 hover:text-red-400 " />
-                            <FaExternalLinkAlt className="h-12 w-5" size={40}/>
+                            <Link href="https://airbnb-next-tailwind-six.vercel.app/"><FaExternalLinkAlt className="h-12 w-5 cursor-pointer" size={40}/></Link>
                             
                         </div>
                     </div>
