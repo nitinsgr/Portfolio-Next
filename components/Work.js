@@ -48,7 +48,7 @@ function Work() {
                         
                         <h5 className="text-3xl font-poppins font-bold float-left ">Spotify Plug & Play</h5>
                         <p className="text-1xl font-poppins pt-5 xs:text-2xl">Webapp design & Development</p>
-                        <div className=" flex shadow-md flex-grow xs:translate-x-0 xs:transform-none rounded-md mt-10 bg-white-white transform h-32 pl-4 w-full text-black font-poppins">
+                        <div className=" flex shadow-md xs:translate-x-0 xs:transform-none rounded-md mt-10 bg-white-white transform h-32 pl-4 w-full text-black font-poppins">
                           <p className="p-4 xs:p-3">A fully functional Spotify Web app with user Authentication, Functionality to play and listen songs and much more.</p>
                         </div>
                         <div className="flex space-x-5 justify-start">
@@ -67,7 +67,7 @@ function Work() {
                     </div>
                     <div className=" flex flex-col ml-0  text-right xs:text-left transform -translate-x-1/4 xs:transform-none ">
                         <div className="flex translate-x-2/4 ml-40 text-right space-x-14 xs:space-x-24">
-                            <h3 className="text-2xl font-poppins font-semibold xs:text-3xl xs:float-left xs:text-left">01</h3>
+                            <h3 className="text-2xl font-poppins font-semibold xs:text-3xl xs:float-left xs:text-left">03</h3>
                             <div className="border h-0 w-20 transform translate-y-3"></div>
                             <h3 className="text-1xl float-right text-right font-poppins xs:text-2xl">Featured Project</h3>
                         </div>
