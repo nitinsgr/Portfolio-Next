@@ -7,14 +7,34 @@ import NextIcon from '../images/next.svg'
 import NodeIcon from '../images/nodejs.svg'
 import SassIcon from '../images/sass-1.svg'
 import MongoIcon from '../images/mongodb-icon-1.svg'
-
+import AdobeIcon from '../images/figma-1.svg'
+import XDIcon from '../images/adobe-xd-1.svg'
+import { FaBeer, FaFacebook, FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import Eye from '../images/eye.png'
 
 function about() {
   
     return (
         <>
            
-            <Header />
+           <header className=" mx-auto max-w-7xl xs:ml-10 xs:justify-end xs:mt-10 xs:mb-10 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between mt-14">
+            <div className="relative h-18 w-28 xs:invisible animate-bounce xs:max-w-7xl">
+                <Link href="/"  className="">
+                <Image src={Eye}
+                        layout="fill"
+                        className="cursor-pointer"
+                    objectFit="contain"
+                /></Link>
+            </div>
+             <div className="flex space-x-5  xs:invisible ">
+                <FaFacebookF className=" flex hover:bg-red-300 rounded-full p-3 transition duration-200 ease-in-out relative h-10 w-10 hover:text-black text-white"/>
+                <FaTwitter  className=" flex hover:bg-red-300 rounded-full p-3 transition duration-200  ease-in-out  relative h-10 w-10 hover:text-black text-white" />
+                <FaInstagram className=" flex hover:bg-red-300 rounded-full p-3 transition duration-200 ease-in-out relative h-10 w-10 hover:text-black text-white"/>
+            </div>
+             <div>
+               <Link href="/"><h2 className="font-semibold hover:text-red-200 lg:text-1xl xs:text-2xl max-w-screen-sm xs:pl-10">Back to Home</h2></Link>
+            </div>
+        </header>
         
             <main className=" max-w-7xl mx-auto">
                 <div className="flex font-poppins mt-32 space-x-5">
@@ -42,6 +62,10 @@ function about() {
                     <Image src={NodeIcon} className="rounded-xl" width={100} height={100} objectFit="contain"/>
                     <Image src={MongoIcon} className="rounded-xl" width={100} height={100} objectFit="contain"/>
                     <Image src={SassIcon} className="rounded-xl" width={100} height={100} objectFit="contain"/>
+                    <Image src={AdobeIcon} objectFit="contain" className="rounded-xl z-10" width={100} height={100}/>
+                    <Image src={XDIcon} objectFit="contain" className="rounded-xl z-10" width={100} height={100}/>
+                    
+                
                     </div>
                 </div>
                 <div className="flex pb-20">
