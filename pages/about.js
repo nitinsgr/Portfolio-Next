@@ -41,7 +41,7 @@ function about() {
                     <h4 className="text-1xl">Few words about me</h4>
                     <div className="border h-0 w-16 transform translate-y-3"></div>
                 </div>
-                <div className="flex flex-col xs:justify-center xs:align-middle">
+                <div className="flex flex-col xs:justify-center xs:align-middle container">
                     <h1 className="text-9xl pt-10 font-poppins font-semibold">Hello !</h1>
                     <h1 className="text-9xl font-poppins font-medium pt-5">I'm Nitin Sagar</h1>
                     <h1 className="text-9xl font-poppins font-thin text-yellow-500 pt-5">I Design & Build Digital Experience & Interfaces </h1>
@@ -68,7 +68,7 @@ function about() {
                 
                     </div>
                 </div>
-                <div className="flex pb-20 xs:mx-10">
+                <div className="flex pb-20 xs:mx-10 xs:container">
                     <Link href="./Resume-FrontEnd.pdf"><button className="text-2xl text-red-400 hover:bg-yellow-300 font-poppins font-semibold hover:pl-2 border-2 p-4 ">My Resume</button></Link>
                 </div>
             </main>

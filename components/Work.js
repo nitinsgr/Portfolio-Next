@@ -76,7 +76,7 @@ function Work() {
                         <h5 className="text-3xl font-poppins font-bold float-right ">SossPay Wallet</h5>
                         <p className="text-1xl font-poppins pt-5 xs:text-2xl">UX/UI, Rebranding, Redesigning</p>
                         <div className=" flex shadow-md hover:shadow-lg xs:transform-none xs:translate-x-0 flxe-grow rounded-md mt-10 bg-white-white transform translate-x-1/5 h-32 pl-4 w-full text-black font-poppins text-left">
-                          <p className="p-4">An Idea to re-design/re-build Airbnb website, Project completetion done using next js, Tailwindcss and other re-usable libraries and components.</p>
+                          <p className="p-4">A Project, I'm currently working on as a freelance designer.Porject includes UX/UI design, Re-branding and improve the visual experience of the customers.</p>
                         </div>
                         <div className="flex space-x-5 justify-end">
                             <FaGithub className="h-12 w-5 hover:text-red-400 " />
