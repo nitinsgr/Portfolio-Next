@@ -13,7 +13,7 @@ function Info() {
                         <div className="border h-0 w-10 transform translate-y-3 xs:w-10"></div>
                         <h3 className="font-semibold">Available For Freelance Work</h3>
                     </div>
-                <div className="mt-20 font-poppins font-semibold justify-center text-9xl xs:text-center xs:m-20">
+                <div className="mt-20 font-poppins font-semibold justify-center text-9xl xs:text-center xs:text-8xl xs:m-20">
                     <h1> I'm a Freelance <span className=" text-yellow-500">UX/UI</span>  Designer Turning Your Ideas Into Reality</h1>
                     
                 </div>

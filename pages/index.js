@@ -16,7 +16,7 @@ export default function Home() {
         <Work/>
       </div>
      
-      <div>
+      <div className=" ">
         <Contact/>
       </div>
       

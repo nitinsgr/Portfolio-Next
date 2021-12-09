@@ -47,7 +47,7 @@ function about() {
                     <h1 className="text-9xl font-poppins font-thin text-yellow-500 pt-5">I Design & Build Digital Experience & Interfaces </h1>
                 </div>
                 <div className="mt-40 flex flex-col xs:max-w-screen-2xl xs:w-full xs:mx-10">
-                    <p className="text-2xl pb-5 font-poppins">Hi there, I'm a multi talented human beign with almost year of experience in wide range of design and development disciplines.</p>
+                    <p className="text-2xl pb-5 font-poppins">Hi there, I'm a multi talented human being with almost year of experience in wide range of design and development disciplines.</p>
 
                     <p className="text-2xl font-poppins pb-5">You can call me a UX/UI design, developer and illustration artist by passion. professionaly I love to be called as a front-end designer/developer.</p>
                     <p  className="text-2xl font-poppins pb-10">I don't like to be define myself with work I've done, but I define myself with what type of work I want to do. I prefer to keep learning, love facing new challenges which kept me in this field. I like to develop my expertise in a number of areas over the courses in my life and career goal. I currently working remotely freelance client based projects and few personal projects to equip myself with vast knowledge of other disciplines.</p>

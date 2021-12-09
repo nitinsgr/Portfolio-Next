@@ -12,18 +12,3 @@
   
 }
 
-@layer utilities {
-    @variants responsive {
-        .masonry-3-col {
-            column-count: 1;
-            column-gap: 5em;
-        }
-        .masonry-2-col {
-            column-count: 1;
-            column-gap: 4em;
-        }
-        .break-inside {
-            break-inside: avoid;
-        }
-    }
-}
