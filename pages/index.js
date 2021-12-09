@@ -12,13 +12,9 @@ export default function Home() {
   <>
       <Header />
       <Info />
-      <div>
         <Work/>
-      </div>
-     
-      <div className=" ">
+    
         <Contact/>
-      </div>
       
 
   </>
