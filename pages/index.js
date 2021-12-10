@@ -10,13 +10,19 @@ export default function Home() {
 
   return (
   <>
-      <Header />
-      <Info />
-        <Work/>
+  <div>
+  <Header />
+  </div>
+  <div>
+  <Info />
+   </div>
+ <div>
+ <Work/>
+ </div>
+ <div>
+ <Contact/>
+ </div>
     
-        <Contact/>
-      
-
   </>
   )
 }

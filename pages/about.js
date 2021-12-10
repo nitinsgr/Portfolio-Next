@@ -17,8 +17,8 @@ function about() {
     return (
         <>
            
-           <header className=" mx-auto max-w-7xl xs:ml-10 xs:justify-end xs:mt-10 xs:mb-10 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between mt-14">
-            <div className="relative h-18 w-28 xs:invisible animate-bounce xs:max-w-7xl">
+           <header className=" flex justify-evenly pt-10">
+            <div className="relative h-18 w-28 animate-bounce xs:max-w-7xl">
                 <Link href="/"  className="">
                 <Image src={Eye}
                         layout="fill"
@@ -26,35 +26,35 @@ function about() {
                     objectFit="contain"
                 /></Link>
             </div>
-             <div className="flex space-x-5  xs:invisible ">
+             <div className="flex space-x-5 invisible md:visible">
                 <FaFacebookF className=" flex hover:bg-red-300 rounded-full p-3 transition duration-200 ease-in-out relative h-10 w-10 hover:text-black text-white"/>
                 <FaTwitter  className=" flex hover:bg-red-300 rounded-full p-3 transition duration-200  ease-in-out  relative h-10 w-10 hover:text-black text-white" />
                 <FaInstagram className=" flex hover:bg-red-300 rounded-full p-3 transition duration-200 ease-in-out relative h-10 w-10 hover:text-black text-white"/>
             </div>
              <div>
-               <Link href="/"><h2 className="font-semibold hover:text-red-200 lg:text-1xl xs:text-2xl max-w-screen-sm xs:pl-10">Back to Home</h2></Link>
+               <Link href="/about"><h2 className="font-semibold hover:text-red-200 text-xs">Back Home</h2></Link>
             </div>
         </header>
         
-            <main className="max-w-sm md:max-w-md lg:max-w-lg xl:max-w-7xl mx-auto">
-                <div className="flex font-poppins mt-32 space-x-5">
+            <main className=" max-w-7xl mx-auto">
+                <div className="flex font-poppins mt-32 space-x-5 p-4">
                     <h4 className="text-1xl">Few words about me</h4>
-                    <div className="border h-0 w-16 transform translate-y-3"></div>
+                    <div className="border h-0 w-2 transform translate-y-3"></div>
                 </div>
-                <div className="flex flex-col xs:justify-center xs:align-middle container">
-                    <h1 className="text-9xl pt-10 font-poppins font-semibold">Hello !</h1>
-                    <h1 className="text-9xl font-poppins font-medium pt-5">I'm Nitin Sagar</h1>
-                    <h1 className="text-9xl font-poppins font-thin text-yellow-500 pt-5">I Design & Build Digital Experience & Interfaces </h1>
+                <div className="flex flex-col text-left p-4">
+                    <h1 className="text-5xl md:text-8xl pt-10 font-poppins font-semibold">Hello !</h1>
+                    <h1 className="text-5xl md:text-8xl font-poppins font-medium pt-5">I'm Nitin Sagar</h1>
+                    <h1 className="text-5xl md:text-8xl font-poppins font-thin text-yellow-500 pt-5">I Design & Build Digital Experience & Interfaces </h1>
                 </div>
-                <div className="mt-40 flex flex-col xs:max-w-screen-2xl xs:w-full xs:mx-10">
-                    <p className="text-2xl pb-5 font-poppins">Hi there, I'm a multi talented human being with almost year of experience in wide range of design and development disciplines.</p>
+                 <div className=" text-left p-4">
+                    <p className="text-1xl pb-5 font-poppins">Hi there, I'm a multi talented human being with almost year of experience in wide range of design and development disciplines.</p>
 
-                    <p className="text-2xl font-poppins pb-5">You can call me a UX/UI design, developer and illustration artist by passion. professionaly I love to be called as a front-end designer/developer.</p>
-                    <p  className="text-2xl font-poppins pb-10">I don't like to be define myself with work I've done, but I define myself with what type of work I want to do. I prefer to keep learning, love facing new challenges which kept me in this field. I like to develop my expertise in a number of areas over the courses in my life and career goal. I currently working remotely freelance client based projects and few personal projects to equip myself with vast knowledge of other disciplines.</p>
+                    <p className="text-1xl font-poppins pb-5">You can call me a UX/UI design, developer and illustration artist by passion. professionaly I love to be called as a front-end designer/developer.</p>
+                    <p  className="text-1xl font-poppins pb-10">I don't like to be define myself with work I've done, but I define myself with what type of work I want to do. I prefer to keep learning, love facing new challenges which kept me in this field. I like to develop my expertise in a number of areas over the courses in my life and career goal. I currently working remotely freelance client based projects and few personal projects to equip myself with vast knowledge of other disciplines.</p>
                     
-                </div>
-                <div className="flex flex-col xs:mx-10">
-                    <h3 className="text-2xl font-poppins">Here are a few technologies i've been working with recently</h3>
+                </div> 
+                 <div className="flex flex-col p-4">
+                    <h3 className="text-1xl font-poppins">Here are a few technologies i've been working with recently</h3>
                     <div className="flex pb-10 pt-10  space-x-6">
                     <Image src={Javascript} className=" rounded-xl" width={100} height={100} objectFit="contain"/>
                     <Image src={ReactIcon} className="rounded-xl" width={100} height={100} objectFit="contain"/>
@@ -67,10 +67,10 @@ function about() {
                     
                 
                     </div>
-                </div>
-                <div className="flex pb-20 xs:mx-10 xs:container">
-                    <Link href="./Resume-FrontEnd.pdf"><button className="text-2xl text-red-400 hover:bg-yellow-300 font-poppins font-semibold hover:pl-2 border-2 p-4 ">My Resume</button></Link>
-                </div>
+                </div> 
+                 <div className="flex pb-20 items-center justify-center md:items-start md:justify-start ">
+                    <Link href="./Resume-FrontEnd.pdf"><button className="text-1xl text-red-400 hover:bg-yellow-300 font-poppins font-semibold hover:pl-2 border-2 p-4 ">My Resume</button></Link>
+                </div> 
             </main>
         </>
     )

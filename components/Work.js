@@ -9,85 +9,85 @@ import Link from 'next/link'
 function Work() {
     return (
         <>
-        <main className=" max-w-7xl mx-auto mt-32 mb-30 xs:m-0 xs:mx-0 xs:ml-10 xs:justify-center xs:items-center xs:transform xs:translate-x-1/4 ">
-                <h1 className="text-8xl font-semibold text-left xs:text-6xl font-poppins">Case Studies & Work</h1>
+        <main className=" max-w-7xl mx-auto mt-32 md:mb-52 text-center ">
+                <h1 className="text-5xl lg:text-7xl font-semibold font-poppins">Case Studies & Work</h1>
                
             </main>
-            <main className="max-w-7xl mx-auto">
-                 <div className="flex mx-auto mb-20 mt-36 xs:m-20">
-                    <div className=" max-w-full relative">
-                        <Image src={DisplayImage} objectFit="contain" objectPosition="center" className=" hover:shadow-inner opacity-20 hover:opacity-100 rounded-b-full xs:invisible rounded-l-full transition duration-500 ease-in-out mix-blend-overlay "/>
-                    </div>
-                    <div className=" flex flex-col ml-0 float-right xs:text-left text-right transform -translate-x-1/4 xs:transform-none ">
-                        <div className="flex float-right translate-x-2/4 ml-40 text-right xs:text-left xs:space-x-24 space-x-14">
-                            <h3 className="text-2xl font-poppins xs:text-left font-semibold xs:text-3xl">01</h3>
-                            <div className="border h-0 w-20 transform translate-y-3"></div>
-                            <h3 className="text-1xl float-right text-right font-poppins xs:text-2xl">Featured Project</h3>
+             <main className="max-w-7xl mx-auto">
+                 <div className="flex mx-auto mb-20 mt-20 flex-row md:mb-60 ">
+                     <div className="relative hidden md:block invisible md:visible h-2 ">
+                        <Image src={DisplayImage} objectFit="contain" objectPosition="" className="rounded-b-full rounded-l-full"/>
+                    </div> 
+                    <div className=" flex flex-col">
+                         <div className="flex text-center space-x-2 items-center justify-evenly">
+                            <h3 className="text-1xl font-poppins md:text-2xl">01</h3>
+                            <div className="border h-0 w-5  transform translate-y-0"></div>
+                            <h3 className="text-1xl md:text-2xl font-poppins">Featured Project</h3>
                         </div>
-                        
-                        <h5 className="text-3xl font-poppins font-bold float-right ">Travel & Hotel Booking</h5>
-                        <p className="text-1xl font-poppins pt-5 xs:text-2xl">Website Re-design & Development</p>
-                        <div className=" flex shadow-md hover:shadow-lg xs:transform-none xs:translate-x-0 flxe-grow rounded-md mt-10 bg-white-white transform translate-x-1/5 h-32 pl-4 w-full text-black font-poppins text-left">
-                          <p className="p-4">An Idea to re-design/re-build Airbnb website, Project completetion done using next js, Tailwindcss and other re-usable libraries and components.</p>
+                         
+                        <h5 className="text-2xl text-center font-poppins font-bold md:text-right">Travel & Hotel Booking</h5>
+                        <p className="text-1xl text-center md:text-right font-poppins pt-5">Website Re-design & Development</p>
+                        <div className="text-left bg-white-white text-black m-2 font-poppins">
+                          <p className="p-4">Redesigned and Rebuilt Airbnb website using nextjs, Tailwindcss and other reusable libraries.Fully authenticated, Mapbox and much more.</p>
                         </div>
-                        <div className="flex space-x-5 justify-end">
-                            <FaGithub className="h-12 w-5 hover:text-red-400 " />
-                            <Link href="https://airbnb-next-tailwind-six.vercel.app/"><FaExternalLinkAlt className="h-12 w-5 cursor-pointer" size={40}/></Link>
+                         <div className="flex space-x-5 justify-start md:justify-end pl-10">
+                            <FaGithub className="h-7 w-5 hover:text-red-400 " />
+                            <Link href="https://airbnb-next-tailwind-six.vercel.app/"><FaExternalLinkAlt className="h-7 w-5 cursor-pointer" size={40}/></Link>
                             
-                        </div>
+                        </div> 
                     </div>
                 </div>
-
-                 <div className="flex mx-auto mb-20 mt-36 xs:mx-20">
-                   
-                    <div className=" flex flex-col ml-0 float-left text-left transform translate-x-24 z-10 xs:translate-x-0 xs:transform">
-                        <div className="flex float-left ml-0 mr-40 xs:mr-20 text-left space-x-24 xs:space-x-36">
-                            <h3 className="text-1xl float-left font-poppins xs:text-2xl">Featured Project</h3>
-                            <div className="border h-0 w-20 transform translate-y-3"></div>
-                            <h3 className="text-2xl font-poppins font-semibold xs:text-3xl">02</h3>
+                <div className="flex mx-auto mb-20 md:pt-56 flex-row md:mb-56">
+                    
+                    <div className=" flex flex-col">
+                         <div className="flex flex-row-reverse text-center space-x-2 items-center justify-evenly">
+                            <h3 className="text-1xl font-poppins md:text-2xl">02</h3>
+                            <div className="border h-0 w-5  transform translate-y-0"></div>
+                            <h3 className="text-1xl md:text-2xl">Featured Project</h3>
                         </div>
-                        
-                        <h5 className="text-3xl font-poppins font-bold float-left ">Spotify Plug & Play</h5>
-                        <p className="text-1xl font-poppins pt-5 xs:text-2xl">Webapp design & Development</p>
-                        <div className=" flex shadow-md xs:translate-x-0 xs:transform-none rounded-md mt-10 bg-white-white transform h-32 pl-4 w-full text-black font-poppins">
-                          <p className="p-4 xs:p-3">A fully functional Spotify Web app with user Authentication, Functionality to play and listen songs and much more.</p>
+                         
+                        <h5 className="text-2xl text-center font-poppins font-bold md:text-left">Spotify playlist & Profile</h5>
+                        <p className="text-1xl text-center md:text-left font-poppins pt-5">Website Re-design & Development</p>
+                        <div className="text-left bg-white-white text-black m-2 font-poppins">
+                          <p className="p-4">Fully Functional spotify app with all featues, simply plug and play on your local browser. Nextjs 12, Nextauth, Tailwindcss and much more..</p>
                         </div>
-                        <div className="flex space-x-5 justify-start">
-                            <FaGithub className="h-12 w-5 hover:text-red-400" />
-                            <FaExternalLinkAlt className="h-12 w-5" size={40}/>
-                        </div>
-                    </div>
-                     <div className=" max-w-full relative">
-                        <Image src={SpotifyImage} objectFit="contain" className=" xs:invisible rounded-tr-full rounded-br-full rounded-bl-full opacity-20 hover:opacity-100 transition duration-500 ease-in-out"/>
-                    </div>
-                </div>
-
-                <div className="flex mx-auto mb-20 mt-36 xs:m-20">
-                    <div className=" max-w-full relative">
-                        <Image src={Sosspay} objectFit="" objectPosition="center" className=" hover:shadow-inner opacity-20 hover:opacity-100 rounded-b-full xs:invisible rounded-l-full transition duration-500 ease-in-out mix-blend-overlay"/>
-                    </div>
-                    <div className=" flex flex-col ml-0  text-right xs:text-left transform -translate-x-1/4 xs:transform-none ">
-                        <div className="flex translate-x-2/4 ml-40 text-right space-x-14 xs:space-x-24">
-                            <h3 className="text-2xl font-poppins font-semibold xs:text-3xl xs:float-left xs:text-left">03</h3>
-                            <div className="border h-0 w-20 transform translate-y-3"></div>
-                            <h3 className="text-1xl float-right text-right font-poppins xs:text-2xl">Featured Project</h3>
-                        </div>
-                        
-                        <h5 className="text-3xl font-poppins font-bold float-right ">SossPay Wallet</h5>
-                        <p className="text-1xl font-poppins pt-5 xs:text-2xl">UX/UI, Rebranding, Redesigning</p>
-                        <div className=" flex shadow-md hover:shadow-lg xs:transform-none xs:translate-x-0 flxe-grow rounded-md mt-10 bg-white-white transform translate-x-1/5 h-32 pl-4 w-full text-black font-poppins text-left">
-                          <p className="p-4">A Project, I'm currently working on as a freelance designer.Porject includes UX/UI design, Re-branding and improve the visual experience of the customers.</p>
-                        </div>
-                        <div className="flex space-x-5 justify-end">
-                            <FaGithub className="h-12 w-5 hover:text-red-400 " />
-                            <FaExternalLinkAlt className="h-12 w-5" size={40}/>
+                         <div className="flex space-x-5 justify-start md:justify-start pl-2">
+                            <FaGithub className="h-7 w-5 hover:text-red-400 " />
+                            <Link href="https://airbnb-next-tailwind-six.vercel.app/"><FaExternalLinkAlt className="h-7 w-5 cursor-pointer" size={40}/></Link>
                             
-                        </div>
+                        </div> 
                     </div>
+                    <div className="relative hidden md:block invisible md:visible h-10 ">
+                        <Image src={SpotifyImage} objectFit="contain" objectPosition="" className="rounded-r-full rounded-b-full"/>
+                    </div> 
                 </div>
 
+                <div className="flex mx-auto mb-20 mt-20 flex-row md:pt-64 ">
+                     <div className="relative hidden md:block invisible md:visible h-2 ">
+                        <Image src={Sosspay} objectFit="contain" objectPosition="" className="rounded-b-full rounded-l-full"/>
+                    </div> 
+                    <div className=" flex flex-col">
+                         <div className="flex text-center space-x-2 items-center justify-evenly">
+                            <h3 className="text-1xl font-poppins md:text-2xl">03</h3>
+                            <div className="border h-0 w-5  transform translate-y-0"></div>
+                            <h3 className="text-1xl md:text-2xl font-poppins">Featured Project</h3>
+                        </div>
+                         
+                        <h5 className="text-2xl text-center font-poppins font-bold md:text-right">Sosspay Wallet App & Website</h5>
+                        <p className="text-1xl text-center md:text-right font-poppins pt-5">UX/UI & Rebranding</p>
+                        <div className="text-left bg-white-white text-black m-2 font-poppins">
+                          <p className="p-4">Project I've been working on currently. My taks is to manage and design the app and website to provide better digital experience.</p>
+                        </div>
+                         <div className="flex space-x-5 justify-start md:justify-end pl-10">
+                            <FaGithub className="h-7 w-5 hover:text-red-400 " />
+                            <Link href="https://airbnb-next-tailwind-six.vercel.app/"><FaExternalLinkAlt className="h-7 w-5 cursor-pointer" size={40}/></Link>
+                            
+                        </div> 
+                    </div>
+                </div>
+                
                  
-            </main>
+            </main> 
 
         
 

@@ -7,24 +7,24 @@ import Link from 'next/link'
 function Info() {
     return (
        <>
-        <main className="max-w-7xl mx-auto mt-20">
-                    <div className="flex flex-row space-x-4 xs:text-2xl xs:space-x-10 xs:justify-between xs:w-full xs:m-20">
-                        <h3 className="font-semibold ">I'm Nitin Sagar</h3>
+        <main className=" max-w-7xl mx-auto">
+                    <div className="flex flex-row space-x-2 text-center text-xs pl-3 pt-20 font-poppins">
+                        <h3 className="font-semibold">I'm Nitin Sagar</h3>
                         <div className="border h-0 w-10 transform translate-y-3 xs:w-10"></div>
                         <h3 className="font-semibold">Available For Freelance Work</h3>
                     </div>
-                <div className="mt-20 font-poppins font-semibold justify-center text-9xl xs:text-center xs:text-8xl xs:m-20">
+                 <div className="mt-20 font-poppins font-semibold text-center items-center p-2 text-5xl lg:text-8xl xl:text-9xl xl:text-left">
                     <h1> I'm a Freelance <span className=" text-yellow-500">UX/UI</span>  Designer Turning Your Ideas Into Reality</h1>
                     
                 </div>
-                <div className=" pt-20 pb-10 font-poppins xs:w-screen xs:transform xs:translate-x-4 xs:m-20">
-                    <h4 className="text-2xl xs:text-4xl xs:m-0 xs:content-center justify-items-center xs:w-screen w-2/5">I help companies to design digital products and turn ideas into a functional and delightful experience. I’m focusing on working on interface and digital design – mainly building products, branding and websites.</h4>
-                    <div className="shadow-xl mt-4  xs:space-x-2 border-1 pb-2 flex w-1/3 xs:w-full space-x-5 pt-2 text-center align-middle items-center flex-grow rounded-full hover:bg-red-300 transition duration-500 ease-in-out">
-                        <MailIcon className="relative h-12 pl-1" />
-                        <div className="text-white border h-8"></div>
-                        <h6>NitinSagar309@gmail.com</h6>
+                 <div className=" pt-20 pb-10 font-poppins">
+                    <h4 className="text-sm text-center lg:text-left lg:text-2xl md:w-3/4">I help companies to design digital products and turn ideas into a functional and delightful experience. I’m focusing on working on interface and digital design – mainly building products, branding and websites.</h4>
+                    <div className="shadow-lg mt-4 border-1 pb-2 flex pt-2 text-center align-middle items-center flex-grow rounded-full hover:bg-red-300 transition duration-500 ease-in-out">
+                        <MailIcon className="relative h-9 pl-5 pr-2" />
+                        <div className="text-white border h-4 space-x-4 "></div>
+                        <h6 className="text-center lg:text-left pl-3">NitinSagar309@gmail.com</h6>
                     </div>  
-                </div>
+                </div>  
              
             
             </main>
