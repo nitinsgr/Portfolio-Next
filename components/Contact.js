@@ -5,8 +5,8 @@ import Link from "next/link"
 function Contact() {
     return (
         <>
-            <main className=" md:mt-96">
-                <div className=" items-center xs:mx-10 text-center  ">
+            <main className=" md:mt-96 ">
+                <div className=" items-center xs:mx-10 text-center mt-20  ">
                     <h1 className="text-6xl xs:text-4xl font-poppins font-semibold ">Get In Touch</h1>
                     <p className="text-1xl pt-5 text-center xs:text-center items-center mx-auto font-poppins ">I'm Currently Available for any opportunity, you can contact me on my social media handle instagram and main</p>
                     <div className="mx-auto pt-10">

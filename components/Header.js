@@ -21,7 +21,7 @@ function Header() {
                 <FaInstagram className=" flex hover:bg-red-300 rounded-full p-3 transition duration-200 ease-in-out relative h-10 w-10 hover:text-black text-white"/>
             </div>
              <div>
-               <Link href="/about"><h2 className="font-semibold hover:text-red-200 text-xs">About & Services</h2></Link>
+               <Link href="/about"><h2 className="font-semibold hover:text-red-200 text-xs cursor-pointer">About & Services</h2></Link>
             </div>
         </header>
     
