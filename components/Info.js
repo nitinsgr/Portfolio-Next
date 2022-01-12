@@ -8,7 +8,7 @@ function Info() {
     return (
        <>
         <main className=" max-w-7xl mx-auto">
-                    <div className="flex flex-col md:flex-row space-x-10 text-center text-xs text-center pt-20 font-poppins">
+                    <div className="flex flex-col md:flex-row space-x-10 text-center text-xs pt-20 font-poppins">
                         <h3 className="font-semibold text-3xl md:text-sm">I'm Nitin Sagar</h3>
                         <h3 className="font-semibold text-3xl md:text-sm">Available For Freelance Work</h3>
                     </div>

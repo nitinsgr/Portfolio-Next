@@ -56,7 +56,7 @@ export const AboutProject = () => {
 export const ProjectDesc = () => {
   return  (
     <div className=" bg-gray-50">
-    <div className="grid grid-cols-3 gap-2font-poppins w-2/4 bg-yellow-500 text-black p-4 max-w-7xl text-white-white mx-auto ">
+    <div className="grid grid-cols-3 gap-2font-poppins w-2/4 bg-yellow-500  p-4 max-w-7xl text-white-white mx-auto ">
         <div className="flex flex-col border-r border-l text-center  ">
           <h2 className="text-2xl">Year</h2>
           2021
